@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ruleset name="_Buildscripts_Plugin_Skeleton_Package Coding Standards">
+
+	<exclude-pattern>bin/*</exclude-pattern>
+	<exclude-pattern>dev/*</exclude-pattern>
+	<exclude-pattern>node_modules/*</exclude-pattern>
+	<exclude-pattern>vendor/*</exclude-pattern>
+	<exclude-pattern>*.min.js</exclude-pattern>
+
+	<rule ref="WordPress">
+		<exclude name="WordPress.Files.FileName"/>
+		<exclude name="WordPress.Classes.ClassInstantiation" />
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax"/>
+		<exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.MultipleArguments" />
+		<exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine" />
+	</rule>
+</ruleset>
